@@ -1,7 +1,7 @@
 # Simple-open-source-JDBC-framework
 
 // JDBC框架类
- public class JDBCTemplate {
+public class JDBCTemplate {
 	//通过有参构造为数据源赋值
     public JDBCTemplate(DataSource dataSource) {}
 	
@@ -20,7 +20,7 @@
  }
  
 // 用于处理结果集方式的接口
- public interface ResultSetHandler<T> {
+public interface ResultSetHandler<T> {
 	//resultSet处理方法
     <T> T handler(ResultSet rs);
 }
