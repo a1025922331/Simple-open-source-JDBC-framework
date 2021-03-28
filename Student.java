@@ -1,4 +1,4 @@
-package com.itheima05.domain;
+package #;
 
 import java.util.Date;
 
